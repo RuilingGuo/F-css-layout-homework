@@ -19,10 +19,6 @@ ul {
   padding: 0;
 }
 
-main{
-  border: 1px black solid;
-}
-
 .headerNav ul{
   display: flex;
   flex-direction: row;
@@ -42,7 +38,7 @@ footer{
 main{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: space-around;
   margin: 20px 30px;
 }
@@ -70,6 +66,7 @@ main{
 }
 
 .rightAside{
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,4 +109,38 @@ main{
   border-radius: 5px;
   border: 1px lightgray solid;
   font-size: 16px;
+}
+
+.cardColumn{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+  width: 1000px;
+  height: 800px;
+}
+
+.cardWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.articleCard {
+  width: 450px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2);
+  margin: 10px;
+}
+
+.cardDescription {
+  padding: 10px;
+}
+
+.showDetails {
+  color: dodgerblue;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 150px;
 }
