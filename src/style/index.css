@@ -19,7 +19,7 @@ ul {
   padding: 0;
 }
 
-aside,main,footer {
+aside,main,nav{
   border: 1px black solid;
 }
 
@@ -34,4 +34,17 @@ header ul li{
   color: white;
   margin: 15px 0;
 }
+
+footer{
+  background: #eeeeee;
+}
+
+.addressInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
 
