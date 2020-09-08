@@ -19,18 +19,18 @@ ul {
   padding: 0;
 }
 
-aside,main,nav{
+main{
   border: 1px black solid;
 }
 
-header ul{
+.headerNav ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background: black;
 }
 
-header ul li{
+.headerNav ul li{
   color: white;
   margin: 15px 0;
 }
@@ -38,6 +38,15 @@ header ul li{
 footer{
   background: #eeeeee;
 }
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-around;
+  margin: 20px 30px;
+}
+
 
 .addressInfo{
   display: flex;
@@ -47,4 +56,15 @@ footer{
   padding: 30px;
 }
 
+.leftAside{
+  width: 200px;
+}
 
+.aboutArticle, .archivesNav{
+  padding: 15px 10px;
+  margin: 10px;
+}
+
+.aboutArticle{
+  background: #eeeeee
+}
