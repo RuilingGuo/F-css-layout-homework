@@ -19,18 +19,19 @@ ul {
   padding: 0;
 }
 
-header,aside,main,footer {
+aside,main,footer {
   border: 1px black solid;
 }
 
-.headerNav ul{
+header ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background: black;
 }
 
-.headerNav ul li{
+header ul li{
   color: white;
   margin: 15px 0;
 }
+
