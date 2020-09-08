@@ -60,11 +60,56 @@ main{
   width: 200px;
 }
 
-.aboutArticle, .archivesNav{
+.aboutArticle, .archivesNav, .login{
   padding: 15px 10px;
   margin: 10px;
 }
 
 .aboutArticle{
   background: #eeeeee
+}
+
+.rightAside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.login, .loginInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.login{
+  background: #eeeeee;
+}
+
+.loginOption{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.loginInfo, .loginOption,.loginButton{
+  margin:5px 10px;
+}
+
+.loginInfo input{
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px lightgray solid;
+}
+
+.loginButton{
+  background: dodgerblue;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px lightgray solid;
+  font-size: 16px;
 }
