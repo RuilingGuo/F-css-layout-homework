@@ -22,3 +22,15 @@ ul {
 header,aside,main,footer {
   border: 1px black solid;
 }
+
+.headerNav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: black;
+}
+
+.headerNav ul li{
+  color: white;
+  margin: 15px 0;
+}
